@@ -20,6 +20,6 @@ def test_list_user_service_ids(monkeypatch):
 
     assert users ==  [
             {'id': 'aaa-001', 'email': 'toto@gmail.com'},
-            {'id': 'aaa-002', 'email': 'tytto@gmail.com'},
+            {'id': 'aaa-002', 'email': 'tata@gmail.com'},
         ]
 
