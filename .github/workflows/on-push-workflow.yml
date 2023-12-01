@@ -18,8 +18,7 @@ jobs:
       - name: lancer le test
         run: pytest
       - name: Lintage avec Ruff
-        run: |
-            ruff --output-format=github .
-          continue-on-error: false
+        run: ruff check src
+
       
 
