@@ -4,3 +4,4 @@ ruff
 numpy
 requests
 mypy
+types-requests

@@ -19,6 +19,8 @@ jobs:
         run: pytest
       - name: Lintage avec Ruff
         run: ruff check src
+      - name: ckeck test statique
+        run: mypy src
 
       
 
