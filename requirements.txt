@@ -3,3 +3,4 @@ pytest-watch
 ruff
 numpy
 requests
+mypy
